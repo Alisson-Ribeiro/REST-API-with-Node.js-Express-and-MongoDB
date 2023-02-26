@@ -1,0 +1,24 @@
+{
+  "name": "crm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js --exec babel-node"
+  },
+  "author": "Alisson",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.6.4",
+    "nodemon": "^2.0.20"
+  },
+  
+  "devDependencies": {
+  "@babel/cli": "^7.19.3",
+  "@babel/core": "^7.19.3",
+  "@babel/node": "^7.19.3",
+  "@babel/preset-env": "^7.19.3"
+  }
+}  
+
